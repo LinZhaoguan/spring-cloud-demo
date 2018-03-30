@@ -11,7 +11,7 @@
 
     <parent>
         <groupId>com.lynn</groupId>
-        <artifactId>lynn-parent</artifactId>
+        <artifactId>lynn-spring-cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
