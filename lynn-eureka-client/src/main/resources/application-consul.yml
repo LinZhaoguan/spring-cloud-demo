@@ -1,0 +1,16 @@
+#注册到consul
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+eureka:
+  client:
+    enabled: false
+#如果注册到consul失败，开启下面两个配置项，访问本服务的/health节点，根据返回的json数据进行debug。一般是consul的版本问题
+#endpoints:
+#  health:
+#    sensitive: false
+#management:
+#  security:
+#    enabled: false

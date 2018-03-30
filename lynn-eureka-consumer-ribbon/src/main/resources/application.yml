@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: lynn-eureka-consumer
+  profiles:
+    active: eureka
+server:
+  port: 2101

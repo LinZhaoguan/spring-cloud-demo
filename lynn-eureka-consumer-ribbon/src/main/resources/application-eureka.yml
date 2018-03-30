@@ -1,0 +1,6 @@
+#注册到eureka
+eureka:
+  client:
+    service-url:
+#      对应服务注册中心的配置内容，指定服务注册中心的位置
+      defaultZone: http://localhost:1001/eureka/
