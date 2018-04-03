@@ -31,6 +31,10 @@
         <module>lynn-eureka-consumer</module>
         <module>lynn-eureka-consumer-ribbon</module>
         <module>lynn-eureka-consumer-feign</module>
+        <module>lynn-config-server</module>
+        <module>lynn-config-client</module>
+        <module>lynn-eureka-consumer-ribbon-hystrix</module>
+        <module>lynn-hystrix-dashboard</module>
     </modules>
 
     <dependencies>

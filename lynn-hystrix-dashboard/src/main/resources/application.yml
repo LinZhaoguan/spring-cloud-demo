@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: lynn-eureka-server
+server:
+  port: 1301
