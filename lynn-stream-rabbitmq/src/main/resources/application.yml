@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: lynn-stream-rabbitmq
+server:
+  port: 5050

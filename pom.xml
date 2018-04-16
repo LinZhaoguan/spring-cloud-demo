@@ -35,6 +35,8 @@
         <module>lynn-config-client</module>
         <module>lynn-eureka-consumer-ribbon-hystrix</module>
         <module>lynn-hystrix-dashboard</module>
+        <module>lynn-api-gateway</module>
+        <module>lynn-stream-rabbitmq</module>
     </modules>
 
     <dependencies>
