@@ -6,3 +6,8 @@ spring:
     active: eureka
 server:
   port: 2001
+
+logging:
+  level:
+    root: INFO
+    org.springframework.cloud.sleuth: DEBUG

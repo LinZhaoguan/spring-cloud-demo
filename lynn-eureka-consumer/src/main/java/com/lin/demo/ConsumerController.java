@@ -28,6 +28,7 @@ public class ConsumerController {
 
     @GetMapping("/consumer")
     public String consumer() {
+        System.out.println("--- trace 1---");
         //通过LoadBalancerClient接口来获取某个服务的具体实例，并根据实例信息来发起服务接口消费请求
         ServiceInstance serviceInstance = loadBalancerClient.choose("lynn-eureka-client");
         String url = "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/dc";
